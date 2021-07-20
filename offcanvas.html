@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcanvas</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <p class="text-center border border-3 border-dark rounded-pill">
+    <span class="text-warning h1">E</span>
+    <span class="text-dark h1">I</span>
+    <span class="text-warning h1 pe-3   ">D</span>
+
+    <span class="text-dark h1">M</span>
+    <span class="text-danger h1">O</span>
+    <span class="text-secondary h1">B</span>
+    <span class="text-dark h1">A</span>
+    <span class="text-warning h1">R</span>
+    <span class="text-danger h1">O</span>
+    <span class="text-secondary h1">K</span>
+    </p>
+    <!-- <hr> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel p-3">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/eid-1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-3.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-4.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-5.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-6.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eid-7.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        click me
+      </a>
+      <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Button with data-bs-target
+      </button> -->
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning bg-dark p-3 rounded-pill" id="offcanvasExampleLabel">Eid Mobarok</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="border border-5 border-warning w-100">
+            <iframe src="images/eid.mp4" frameborder="0"></iframe>
+          </div>
+          <div>
+              <p class="h4 text-secondary p-3"><span class="text-danger">From:</span> Saeidur Rahman Taeif</p>
+              <p class="h4 text-secondary"><span class="text-danger">To:</span> My All Friends</p>
+          </div>
+          <!-- <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
